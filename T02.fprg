@@ -4,10 +4,10 @@
         <attribute name="name" value="T01-Data type, Input-Output"/>
         <attribute name="authors" value="boyha"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-27 11:46:12 AM"/>
+        <attribute name="saved" value="2024-09-27 11:50:15 AM"/>
         <attribute name="created" value="Ym95aGE7Qk9ZOzIwMjQtMDktMDY7MTA6MTE6MjAgQU07MjAyMg=="/>
         <attribute name="edited" value="Ym95aGE7Qk9ZOzIwMjQtMDktMDY7MTE6MjQ6MTAgQU07NTsyMTM4"/>
-        <attribute name="edited" value="QVNVUztTVU5OWS1MQVBUT1A7MjAyNC0wOS0yNzsxMTo0NjoxMiBBTTs4OzI2MjM="/>
+        <attribute name="edited" value="QVNVUztTVU5OWS1MQVBUT1A7MjAyNC0wOS0yNzsxMTo1MDoxNSBBTTs5OzI2MjI="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -16,7 +16,7 @@
             <declare name="Tahunterbit, Minimummargin, Hargabeli, Stok, Rating" type="Real" array="False" size=""/>
             <input variable="ISBN"/>
             <input variable="Judul"/>
-            <input variable="PENULIS"/>
+            <input variable="Penulis"/>
             <input variable="Tahunterbit"/>
             <input variable="Penerbit"/>
             <input variable="Formatbuku"/>
