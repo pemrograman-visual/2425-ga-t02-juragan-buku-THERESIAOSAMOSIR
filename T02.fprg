@@ -4,10 +4,10 @@
         <attribute name="name" value="T01-Data type, Input-Output"/>
         <attribute name="authors" value="boyha"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-27 10:57:47 AM"/>
+        <attribute name="saved" value="2024-09-27 11:18:51 AM"/>
         <attribute name="created" value="Ym95aGE7Qk9ZOzIwMjQtMDktMDY7MTA6MTE6MjAgQU07MjAyMg=="/>
         <attribute name="edited" value="Ym95aGE7Qk9ZOzIwMjQtMDktMDY7MTE6MjQ6MTAgQU07NTsyMTM4"/>
-        <attribute name="edited" value="QVNVUztTVU5OWS1MQVBUT1A7MjAyNC0wOS0yNzsxMDo1Nzo0NyBBTTsxOzI2MjU="/>
+        <attribute name="edited" value="QVNVUztTVU5OWS1MQVBUT1A7MjAyNC0wOS0yNzsxMToxODo1MSBBTTs0OzI2MjE="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -58,7 +58,7 @@
                     </if>
                 </else>
             </if>
-            <output expression="ISBN&amp;&quot;|&quot;&amp;Judul&amp;&quot;|&quot;&amp;Penulis&amp;&quot;|&quot;&amp;Tahunterbit&amp;&quot;|&quot;&amp;Penerbit&amp;&quot;|&quot;&amp;Formatbuku&amp;&quot;|&quot;&amp;tofixed(Hargabeli,2)&amp;&quot;|&quot;&amp;tofixed(Minimummargin,2)&amp;&quot;|&quot;&amp;Stok&amp;&quot;|&quot;&amp;Rating&amp;&quot;|&quot;&amp;ket" newline="True"/>
+            <output expression="ISBN&amp;&quot;|&quot;&amp;Judul&amp;&quot;|&quot;&amp;Penulis&amp;&quot;|&quot;&amp;Tahunterbit&amp;&quot;|&quot;&amp;Penerbit&amp;&quot;|&quot;&amp;Formatbuku&amp;&quot;|&quot;&amp;tofixed(Hargabeli,2)&amp;&quot;|&quot;&amp;tofixed(Minimummargin,2)&amp;&quot;|&quot;&amp;Stok&amp;&quot;|&quot;&amp;Rating&amp;&quot;|&quot;&amp;Ket" newline="True"/>
         </body>
     </function>
 </flowgorithm>
