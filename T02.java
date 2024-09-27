@@ -4,7 +4,7 @@
 import java.util.*;
 import java.lang.Math;
 
-public class JavaApplication {
+public class T02 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -33,14 +33,12 @@ public class JavaApplication {
                     if (rating >= 3.0) {
                         ket = "Average";
                     } else {
-                        if (rating >= 3.0) {
-                            ket = "Low";
-                        }
+                        ket = "Low";
                     }
                 }
             }
         }
-        System.out.println(iSBN + "|" + judul + "|" + penulis + "|" + tahunterbit + "|" + penerbit + "|" + formatbuku + "|" + toFixed(hargabeli,2) + "|" + toFixed(minimummargin,2) + "|" + stok + "|" + rating + "|" + ket);
+        System.out.println(iSBN + "|" + judul + "|" + penulis + "|" + tahunterbit + "|" + penerbit + "|" + formatbuku + "|" + toFixed(hargabeli,2) + "|" + toFixed(minimummargin,2) + "|" + stok + "|" + toFixed(rating,1) + "|" + ket);
     }
     
     private static String toFixed(double value, int digits) {
