@@ -4,16 +4,17 @@
         <attribute name="name" value="T01-Data type, Input-Output"/>
         <attribute name="authors" value="boyha"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-27 11:54:26 AM"/>
+        <attribute name="saved" value="2024-09-27 11:59:43 AM"/>
         <attribute name="created" value="Ym95aGE7Qk9ZOzIwMjQtMDktMDY7MTA6MTE6MjAgQU07MjAyMg=="/>
         <attribute name="edited" value="Ym95aGE7Qk9ZOzIwMjQtMDktMDY7MTE6MjQ6MTAgQU07NTsyMTM4"/>
-        <attribute name="edited" value="QVNVUztTVU5OWS1MQVBUT1A7MjAyNC0wOS0yNzsxMTo1NDoyNiBBTTsxMTsyNjY5"/>
+        <attribute name="edited" value="QVNVUztTVU5OWS1MQVBUT1A7MjAyNC0wOS0yNzsxMTo1OTo0MyBBTTsxMjsyNjc0"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="ISBN, Judul, Penulis, Penerbit, Formatbuku, Ket" type="String" array="False" size=""/>
-            <declare name="Tahunterbit, Minimummargin, Hargabeli, Stok, Rating" type="Real" array="False" size=""/>
+            <declare name="Stok, Tahunterbit" type="Integer" array="False" size=""/>
+            <declare name="Minimummargin, Rating, Hargabeli" type="Real" array="False" size=""/>
             <input variable="ISBN"/>
             <input variable="Judul"/>
             <input variable="Penulis"/>

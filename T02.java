@@ -9,17 +9,18 @@ public class T02 {
 
     public static void main(String[] args) {
         String iSBN, judul, penulis, penerbit, formatbuku, ket;
-        double tahunterbit, minimummargin, hargabeli, stok, rating;
+        int stok, tahunterbit;
+        double minimummargin, rating, hargabeli;
 
         iSBN = input.nextLine();
         judul = input.nextLine();
         penulis = input.nextLine();
-        tahunterbit = Double.parseDouble(input.nextLine());
+        tahunterbit = Integer.parseInt(input.nextLine());
         penerbit = input.nextLine();
         formatbuku = input.nextLine();
         hargabeli = Double.parseDouble(input.nextLine());
         minimummargin = Double.parseDouble(input.nextLine());
-        stok = Double.parseDouble(input.nextLine());
+        stok = Integer.parseInt(input.nextLine());
         rating = Double.parseDouble(input.nextLine());
         if (rating >= 4.7) {
             ket = "Best Pick";
